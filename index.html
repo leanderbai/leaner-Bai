@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主要页面</title>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg2 index">
+    <div class="top">
+        <div class=" wrap">
+            <div class="head">
+                <a href="#about" class="cur">About</a> <a href="#projects">Projects</a> <a href="#testimonies">
+                    Testimonies</a> <a href="#message">Message</a>
+            </div>
+            <div class="bigtxt" id="about">
+                <div class="b-l">
+                    <h1>
+                        UI&UX Designer
+                    </h1>
+                    <h3>
+                        Hi, This is Leander’s Website</h3>
+                    <a href="javascript:void(0);" onclick="dj()">Check my stories
+                        <img src="images/a1.png" /></a>
+                    <div>
+                        <div class="info">
+                            <h4>
+                                College
+                            </h4>
+                            <p>
+                                NYUSH 2025
+                            </p>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                Major
+                            </h4>
+                            <p>
+                                Interactive Media Arts
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="b-r">
+                    <p>
+                        I am a junior student at NYU Shanghai, majoring in Interactive Media Arts with a
+                        minor in Creativity & Innovation. I spent my freshman and sophomore years at the
+                        Shanghai campus and I am currently in my junior year studying at the New York campus.
+                        In the upcoming semester, I will be going on a new academic adventure in Abu Dhabi.</p>
+                    <p>
+                        During my university journey, the diverse campus environment has allowed me to make
+                        friends and meet new people from various countries around the world. They have told
+                        me stories and showed me many new things that opened my eyes to different perspectives
+                        and cultures, helping me broaden my global awareness. I aspire to explore more countries
+                        and embrace the vastness of the world in the future!</p>
+                </div>
+                <script>
+
+                    function dj() {
+                        var br1 = document.querySelectorAll('.b-r');
+
+                        br1[0].classList.add("act");
+
+
+                    }
+                
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="yan">
+        <div class=" wrap">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>
+                            “The most important things is to try and inspire people so that they can be great
+                            in whatever they want to do”</p>
+                        <h2>
+                            -Kobe Bryant</h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            “Embrace it, Change it, Improve it.”</p>
+                        <h2>
+                            -Steve Jobs</h2>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>
+                            "stay hungry, stay foolish.”</p>
+                        <h2>
+                            -steve Jobs</h2>
+                    </div>
+                </div>
+                <div class="next">
+                    <img src="images/r.png" />
+                </div>
+                <div class="prev">
+                    <img src="images/l.png" />
+                </div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="js/swiper-bundle.min.js" type="text/javascript"></script>
+            <!-- Initialize Swiper -->
+            <script>
+    var swiper = new Swiper(".mySwiper", {
+     loop: true,
+      navigation: {
+        nextEl: ".next",
+        prevEl: ".prev",
+      },
+    });
+            </script>
+        </div>
+    </div>
+    <div class="design">
+        <div class=" wrap">
+            <ul id="projects">
+                <li><a href="UIUX Design.html">
+                    <p>
+                        Design Portfolio</p>
+                    <span>More Detail</span>
+                    <img src="images/d1.png" />
+                </a></li>
+                <li><a href="personal experience.html">
+                    <p>
+                        Personal Experience</p>
+                    <span>More Detail</span>
+                    <img src="images/d2.png" />
+                </a></li>
+                <li><a href="activity experience.html">
+                    <p>
+                        Activity Experience</p>
+                    <span>More Detail</span>
+                    <img src="images/d3.png" />
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="testimonials" id="testimonies">
+        <div class=" wrap">
+            <h3>
+                Testimonials</h3>
+            <ul>
+                <li>
+                    <div class="user">
+                        <div class="img">
+                            <img src="images/t1.png" />
+                        </div>
+                        <div class="txt">
+                            <h2>
+                                Tish Chou</h2>
+                            <p>
+                                “really a iron man fan”</p>
+                            <img src="images/wx.png" />
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            “ When people are thinking about the career, the future, Leander is thinking about
+                            what can we create and innovate in career and what the future society looks like.
+                            That’s how he surprises and inspires me all the time.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="user">
+                        <div class="img">
+                            <img src="images/t2.png" />
+                        </div>
+                        <div class="txt">
+                            <h2>
+                                Elaine He</h2>
+                            <p>
+                                “Really love the 3D models”
+                            </p>
+                            <img src="images/wx.png" />
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            “ Leander is always surprising me with his creative ideas, there has been many many
+                            times where I’ve thought to myself how come I didn’t think that? His thoughtful
+                            thinking process and execution makes his designs very well done</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="user">
+                        <div class="img">
+                            <img src="images/t3.png" />
+                        </div>
+                        <div class="txt">
+                            <h2>
+                                Jacob Zelvin</h2>
+                            <p>
+                                “bro is kinda sick w it”</p>
+                            <img src="images/wx.png" />
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            “ Leander is always willing to be direct with you. He is really good at resolving
+                            conflict as well. This leads to him being a very take charge and affirmative person.
+                            These two combined reflect a person that I’d trust with important things in my life.
+                            He is the type of person when you ask something of him he will get it done.this
+                            is reflected in his art as he puts this attitude towards it. When he has an image
+                            or concept in his mind he manages to produce it
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact" id="message">
+        <div class=" wrap">
+            <h2>
+                Let's Design Together Contact Me</h2>
+            <p>
+                Leave me any of your thoughts, comments, or contact information to get in touch
+                with me further!</p>
+            <div class="form">
+                <input type="text" placeholder="Enter Your Messages" />
+                <input type="submit" value="Contact Me" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
